@@ -1,0 +1,8 @@
+Makefile
+LICENSE
+
+docker
+
+.vscode
+.gitignore
+.dockerignore

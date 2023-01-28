@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  gptbot:
+    build:
+      dockerfile: docker/Dockerfile
+      context: ../
+    container_name: gptbot
+    restart: unless-stopped
+
+networks:
+  default:
+    name: gptbot
